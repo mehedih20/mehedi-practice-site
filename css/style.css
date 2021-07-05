@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  /* Font */
+  --font-rob: "Roboto", sans-serif;
+  --font-open: "Open Sans", sans-serif;
+
+  /* Color */
+}
+
+/* --------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--font-open);
+  font-size: 1.4rem;
+}
+
+/* -------------------- */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* ----------- Navigation -------- */
+
+.navigation {
+  background: #4c4c6d;
+}
+
+.nav-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.nav-logo {
+  font-size: var(--font-rob);
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.link-item {
+  color: rgb(173, 171, 171);
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.link-item:hover {
+  color: rgb(4, 151, 151);
+  transform: scale(1.1);
+}
+
+/* ------------- Header ----------- */
