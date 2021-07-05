@@ -39,12 +39,13 @@ li {
 .container {
   width: 95%;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* ----------- Navigation -------- */
 
 .navigation {
-  background: #4c4c6d;
+  background: #141258;
 }
 
 .nav-container {
@@ -89,3 +90,42 @@ li {
 }
 
 /* ------------- Header ----------- */
+
+.header {
+  height: 85vh;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-container {
+  clip-path: polygon(14% 0, 100% 0, 86% 100%, 0 100%);
+  background-color: rgba(27, 26, 114, 0.86);
+  min-height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 5rem;
+}
+
+.header-title {
+  padding: 0 5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.header-title span {
+  color: #c482f0;
+  display: inline-block;
+}
